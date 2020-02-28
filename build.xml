@@ -36,7 +36,7 @@
             <formatter type="brief" usefile="false"/>
             <batchtest >
                 <fileset dir="${result.testclasses.dir}" >
-                     <include name="**/*testcode.class"/>
+                     <include name="**/*TestCalc.class"/>
                 </fileset>
             </batchtest>
         </junit>
